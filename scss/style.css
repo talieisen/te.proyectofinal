@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@230;500&display=swap");
+body {
+  background-color: whitesmoke;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#d1cfcf));
+  background-image: linear-gradient(white, #d1cfcf);
+  color: #383737;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  footer div, ul {
+    margin-bottom: 0;
+  }
+}
+
+/*QUIENES SOMOS*/
+main .quienessomost {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5em;
+}
+
+main .quienessomost .textoquienessomos {
+  margin: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+main .quienessomost .textoquienessomos .reunion {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5em;
+}
+
+main .quienessomost .textoquienessomos .reunion .textoreunion {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  margin: 50px;
+  font-size: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .quienessomost {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 766px) {
+  .quienessomost {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 0.5em;
+  }
+}
+
+:root {
+  --main-bg:white;
+}
+
+.main-bg {
+  background: var(--main-bg) !important;
+}
+
+input:focus, button:focus {
+  border: 1px solid black !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--main-bg) !important;
+  border-color: var(--main-bg) !important;
+}
+
+.card, .btn, input {
+  border-radius: 0 !important;
+}
+
+.proyectot {
+  margin: 1.5rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.proyectovideo {
+  position: relative;
+}
+
+.textoproyecto {
+  margin: 12em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #212121;
+  font-size: 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .proyectot {
+    width: 70vh;
+    text-align: center;
+    color: #212121;
+  }
+  .textoproyecto {
+    margin: 4em;
+    font-size: 0.7em;
+    color: #212121;
+  }
+}
+
+@media (max-width: 766px) {
+  .proyectot {
+    width: 20vh;
+    padding: 0 2;
+    font-size: 3rem;
+    text-align: center;
+    color: #212121;
+  }
+}
+
+.main {
+  height: 100vh;
+}
+
+.main .carousel-caption h1 {
+  position: absolute;
+  top: 100rem;
+  left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.main .carousel-caption h2 {
+  position: absolute;
+  right: 15%;
+  bottom: 125px;
+  left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.reunion {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.reunion h2 {
+  color: #201e1f;
+}
+
+.reunion p {
+  color: #201e1f;
+}
+
+.favoritosetodxs {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.favoritosetodxs h2 {
+  color: #201e1f;
+}
+
+.favoritosetodxs p {
+  color: #201e1f;
+}
+/*# sourceMappingURL=style.css.map */

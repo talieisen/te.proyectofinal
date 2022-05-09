@@ -1,6 +1,29 @@
-$bg: whitesmoke;
-
 body{
-    background-color: $bg;
+    background-color: whitesmoke;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(white , rgb(209, 207, 207));
+    color: rgb(56, 55, 55);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: auto;
 }
 
+@media only screen and (max-width: 768px) {
+   footer div,ul {
+     margin-bottom: 0;
+   }
+ }
+
+@import "variables";
+@import "quienessomos";
+@import "signin";
+@import "proyecto";
+@import "comprar";
+@import"index";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@230;500&display=swap');

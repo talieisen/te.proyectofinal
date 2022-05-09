@@ -1,0 +1,43 @@
+.proyectot{
+    margin: 1.5rem;
+    padding: 1rem;
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    font-size: 5rem;
+}
+.proyectovideo{
+    position: relative;   
+}
+.textoproyecto{
+    margin: 12em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: $letraoscura;
+    font-size: 1rem;
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .proyectot{
+        width: 70vh;
+        text-align: center;
+        color: $letraoscura;
+    }
+    .textoproyecto{
+        margin: 4em;
+        font-size: 0.7em;
+        color: $letraoscura;
+    }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 766px) {
+    .proyectot{
+        width: 20vh;
+        padding: 0 2;
+        font-size: 3rem;
+        text-align: center;
+        color: $letraoscura;
+    }
+}

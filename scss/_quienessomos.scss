@@ -1,38 +1,51 @@
 /*QUIENES SOMOS*/
-main{
-    .quienessomost{
-        font-family:'Montserrat', sans-serif ;
-        text-align: center;
-        font-size: 5em;
+.quienessomost .reunion{
+    margin: 1.5rem;
+    padding: 1rem;
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    font-size: 5rem;
 
-    .textoquienessomos{
-        margin: 5rem;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        font-size: 3em;
 
-    .reunion{
-        font-family:'Montserrat', sans-serif ;
-        text-align: center;
-        font-size: 5em;
-
-    .textoreunion{
+.textoquienessomos .textoreunion{
+    margin: 6em;
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    margin: 50px;
-    font-size: 20px;
+    text-align: center;
+    color: $letraoscura;
+    font-size: 1rem;
     }
     }
-    }
-    }
+body{
+    background:#eee;
+    margin-top:20px;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
 
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
     .quienessomost{
         font-family:'Montserrat', sans-serif ;
         text-align: center;
-        font-size: 1em;
+        font-size: 5em;
     }
 }
 

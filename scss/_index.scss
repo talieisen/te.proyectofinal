@@ -1,21 +1,17 @@
 .main{
     height: 100vh;
 
-    .carousel-caption{
-      h1{
-        position: absolute; 
-        
-        top: 100rem;
-        left: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: $letraclara;
-        text-align: left;
-        }
+.carousel-caption{
+  .titulo{
+      margin-top: 6rem;
+      padding: 1rem;
+      font-family:'Montserrat', sans-serif ;
+      text-align: center;
+      font-size: 5rem;
+  }
       h2{
         position: absolute; 
-        right: 15%;
-        bottom: 125px;
+        top: 80rem;
         left: 15%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -24,6 +20,50 @@
     }
     }
 }
+.reunion{
+  margin: 3rem;
+}
+  h1{
+  font-size: 1.5rem;
+  }
+  p{
+  font-size: 0.5rem;
+  }  
+
+
+
+.loquehacemos{
+  color: #201e1f;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 1200px){
+  h1{ 
+    font-size: 3rem;
+    text-align: left;
+  }
+  h2{
+      font-size: 2rem;
+      text-align: left;
+  }
+}
+.reunion{
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+  h1{
+    font-size: 2rem;
+  }
+.reunion p {
+  color: #201e1f;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+}
+
 
 $bgcaja1: white;
 $bgcaja2: white;
@@ -47,7 +87,4 @@ p{
 .favoritosetodxs{
   @include cajas ($bgcaja1)
 }
-
-
-
 

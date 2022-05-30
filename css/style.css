@@ -1,6 +1,22 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@230;500&display=swap");
 body {
-  background-color: whitesmoke;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.botonvermas {
+  padding: 10px;
+  /*espacio alrededor texto*/
+  color: #6d6b6b;
+  /*color texto*/
+  text-decoration: none;
+  text-transform: uppercase;
+  /*capitalización texto*/
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 50px;
+  /*bordes redondos*/
 }
 
 footer {
@@ -21,6 +37,24 @@ footer {
   height: auto;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: #383737;
+}
+
+.fa-facebook, .fa-instagram, .fa-google {
+  color: #7F7D83;
+}
+
 @media only screen and (max-width: 768px) {
   footer div, ul {
     margin-bottom: 0;
@@ -28,20 +62,73 @@ footer {
 }
 
 /*QUIENES SOMOS*/
-.quienessomost .reunion {
-  margin: 1.5rem;
+.quienessomost {
+  margin-top: 6rem;
   padding: 1rem;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 5rem;
 }
 
-.quienessomost .reunion .textoquienessomos .textoreunion {
-  margin: 6em;
+.textoquienessomos {
+  margin-top: 2em;
+  margin-left: 5.5em;
+  margin-right: 5.5em;
+  margin-bottom: 3em;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #212121;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+.quienessomosreunion {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.textoreunion {
+  margin-top: 1em;
+  margin-left: 5.5em;
+  margin-right: 5.5em;
+  margin-bottom: 4em;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #212121;
+  font-size: 1.2rem;
+}
+
+.img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 991.98px) {
@@ -60,31 +147,135 @@ footer {
   }
 }
 
-:root {
-  --main-bg:white;
+.registrate {
+  margin-top: 6rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5rem;
 }
 
-.main-bg {
-  background: var(--main-bg) !important;
+.textoregistrate {
+  margin-top: 0.5em;
+  margin-left: 5.5em;
+  margin-right: 5.5em;
+  margin-bottom: 2em;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #212121;
+  font-size: 1.2rem;
 }
 
-input:focus, button:focus {
-  border: 1px solid black !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+.box {
+  width: 500px;
+  margin: 4rem;
 }
 
-.form-check-input:checked {
-  background-color: var(--main-bg) !important;
-  border-color: var(--main-bg) !important;
+.shape1 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 80px;
+  float: left;
+  margin-right: -50px;
 }
 
-.card, .btn, input {
-  border-radius: 0 !important;
+.shape2 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 80px;
+  margin-top: -30px;
+  float: left;
+}
+
+.shape3 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 80px;
+  margin-top: -30px;
+  float: left;
+  margin-left: -31px;
+}
+
+.shape4 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 80px;
+  margin-top: -25px;
+  float: left;
+  margin-left: -32px;
+}
+
+.shape5 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 80px;
+  float: left;
+  margin-right: -48px;
+  margin-left: -32px;
+  margin-top: -30px;
+}
+
+.shape6 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 80px;
+  float: left;
+  margin-right: -20px;
+  margin-top: -35px;
+}
+
+.shape7 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 80px;
+  float: left;
+  margin-right: -20px;
+  margin-top: -57px;
+}
+
+.float {
+  position: absolute;
+  z-index: 2;
+}
+
+.form {
+  margin-left: 145px;
+}
+
+.form-group {
+  margin-bottom: 0.2rem;
+}
+
+.btn-info {
+  margin-left: 145px;
+  background: #000000;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+  font: bold15px 'Montserrat', sans-serif;
+  text-shadow: none;
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .proyectot {
-  margin: 1.5rem;
+  margin-top: 4.5rem;
   padding: 1rem;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -93,10 +284,12 @@ input:focus, button:focus {
 
 .proyectovideo {
   position: relative;
+  margin-top: 0;
 }
 
 .textoproyecto {
   margin: 6em;
+  padding: 2em;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #212121;
@@ -126,29 +319,213 @@ input:focus, button:focus {
   }
 }
 
+.loquehacemoscomprar {
+  margin-top: 6rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.textocomprar {
+  margin-top: 0.5em;
+  margin-left: 5.5em;
+  margin-right: 5.5em;
+  margin-bottom: 2em;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #212121;
+  font-size: 1.2rem;
+}
+
+.comprar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr (minmax(auto, 60px))[12] 1fr;
+      grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+  grid-gap: 40px;
+  padding: 60px 0;
+}
+
+.cards {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 12;
+  grid-column: 2 / span 12;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(auto, 60px))[12];
+      grid-template-columns: repeat(12, minmax(auto, 60px));
+  grid-gap: 40px;
+}
+
+.card {
+  -ms-grid-column-span: 4;
+      grid-column-end: span 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #cfcfcf;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.card:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.card__image-container {
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+  position: relative;
+}
+
+.card__image-container img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card__content {
+  padding: 20px;
+}
+
+.card__title {
+  margin-bottom: 20px;
+}
+
+.card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__price {
+  margin-left: auto;
+  padding: 5px 20px;
+  background-color: #303032;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    -ms-grid-column-span: 6;
+        grid-column-end: span 6;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    grid-gap: 20px;
+  }
+  .card {
+    -ms-grid-column-span: 12;
+        grid-column-end: span 12;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    -ms-grid-columns: 10px (1fr)[6] 10px;
+        grid-template-columns: 10px repeat(6, 1fr) 10px;
+    grid-gap: 10px;
+  }
+  .cards {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 6;
+    grid-column: 2 / span 6;
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+  }
+  .card {
+    -ms-grid-column-span: 6;
+        grid-column-end: span 6;
+  }
+}
+
 .main {
   height: 100vh;
 }
 
-.main .carousel-caption h1 {
-  position: absolute;
-  top: 100rem;
-  left: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: whitesmoke;
-  text-align: left;
+.main .carousel-caption .titulo {
+  margin-top: 6rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .main .carousel-caption h2 {
   position: absolute;
-  right: 15%;
-  bottom: 125px;
+  top: 80rem;
   left: 15%;
   padding-top: 20px;
   padding-bottom: 20px;
   color: whitesmoke;
   text-align: left;
+}
+
+.reunion {
+  margin: 3rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.5rem;
+}
+
+.loquehacemos {
+  color: #201e1f;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+.reunion {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.reunion p {
+  color: #201e1f;
+  margin: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .reunion {
